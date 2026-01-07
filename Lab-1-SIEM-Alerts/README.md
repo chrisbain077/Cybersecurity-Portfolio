@@ -1,5 +1,5 @@
 ## Lab 1: SOC Fundamentals - Investigating a Port Scan Alert (False Positive)
-This lab simulates a level 1 SOC analyst investigating a high severity port scan alertt using SIEM tools. Through context review and log analysis i determined it authorized activity and closed it as a false positive.
+This lab simulates a level 1 SOC analyst investigating a high severity port scan alert using SIEM tools. Through context review and log analysis i determined it authorized activity and closed it as a false positive.
 **Date:** January 7, 2026
 
 **Platform:** TryHackMe (SOC fundementals SIEM alert lab)
