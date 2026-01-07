@@ -1,5 +1,5 @@
 ## Lab 0: Blocking a malicious IP
-
+This introductory lab simulates a critical alert in a SOC environment, walking through detection, containment via firewall rules, and verification.
 **Date:** January 7, 2026
 
 **Platform:** TryHackMe (Junior Security Analyst intro Lab)
