@@ -6,7 +6,7 @@
 ## Objective
 Review a SIEM and isolate a malicious IP tagged as a critical alert in a simulated SOC environment.
 
-##Steps taken
+## Steps taken
 1. Monitored alerts on the SIEM system.
 2. identified a critical alert, with a malicious IP attempting unauthorized logins.
 3. Escalated the event to senior analyst.
