@@ -27,21 +27,21 @@ Prioritize and investigate alerts, assign to myself, mark alerts as in progress,
 **Comment / Reasoning**: This alert was triggered from outbound traffic from source IP 192.168.45.66 to zoom.us. The data volume (5.8GB sent) aligns with meetings or file sharing in a video call. No indicators of compromise, unauthorized destination, 
 or unusual patterns were found. Verdict set to False positive, no escalation required; activity is normal and consistent with authorized business use.
 
-###2 High Severity Alert (Double-Extension File Creation)
+### 2. High Severity Alert (Double-Extension File Creation)
 **Description**: This rule detects creation of double-extension files
 
 **Verdict**: True Positive
 
 **Comment / Reasoning**: This alert was triggered when a user downloaded a video off of a 'free' video site. This action does not align with authorized business use due to risk of installing malware unintentionally. The site should be blocked and verdict was set to True Positive.
 
-###3. Low Severity Alert (Download From GitHub Repository)
+### 3. Low Severity Alert (Download From GitHub Repository)
 **Description**: This rule detects any download from GitHub. Github stores a lot of great projects that IT teams can use, it also stores malicious scripts and exploits that must not be downloaded by users.
 
 **Verdict**: False Positive
 
 **Comment / Reasoning**: The user downloaded a Facebook reaction off of GitHub, downloads via GitHub are common and it is harmless data being moved and this rule tracks any download from GitHub. Verdict proven False Positive due to no malicious content or misuse present.
 
-##Results 
+## Results 
 Successfully triaged three alerts of varying severity:
 - Critical: False Positive (benign Zoom traffic)
 - High: True Positive (malicious double-extension file)
