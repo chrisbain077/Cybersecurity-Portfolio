@@ -1,7 +1,7 @@
 # Lab 3: Verdict assesment and Escalation 
 (TryHackMe SOC simulation)
 
-**Date:** Januaary 12, 2026
+**Date:** January 12, 2026
 
 **Platform:** TryHackMe (SOC Alert Reporting room)
 
