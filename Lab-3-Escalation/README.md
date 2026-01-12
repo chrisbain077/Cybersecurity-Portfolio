@@ -2,6 +2,7 @@
 (TryHackMe SOC simulation)
 
 **Date:** Januaary 12, 2026
+
 **Platform:** TryHackMe (SOC Alert Reporting room)
 
 This lab simulates a real-time SOC alert triage: Involving a L1 analyst assessing threat alerts, reporting and escalating these alerts inside SIEM to a L2 analyst for remediation.
