@@ -27,7 +27,7 @@ Investigate alerts, assign to myself, mark in progress, review and report with a
 - Reasoning: This alert was set to True Positive and Escalated to a L2 analyst for remidiation after reviewing the logs in SIEM showing invoked directory commands through Windows System32.
 
 ### 2. Medium Security Alert
-- Description: Email Marked as Phishing after Delivery after an automated analysis. If the email has been spoofed or contains any suspicious links or files it must be deeply investigated.
+- Description: Email Marked as Phishing after Delivery once an automated analysis completed. If the email has been spoofed or contains any suspicious links or files it must be deeply investigated.
 - Comment: This alert shows an email sent by '<support@microsoft.com>' claiming there is a 600% price increase to Microsoft Teams and that the recipient, <e.huffman@tryhackme.thm> urgently needs to download the report and read the details. The email failed two security checks, (SPF/Fail; DKIM/Fail;) and contained a file 'REPORT.rar'.
 - Reasoning: This alert was set to True Positive and escalated due to a spoofed email and the sender pressing urgency onto staff, claiming an extreme price percentage raise, and failed multiple security checks, requiring further investigation.
 
