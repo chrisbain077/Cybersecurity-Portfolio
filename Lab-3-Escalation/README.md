@@ -26,6 +26,11 @@ Investigate alerts, assign to myself, mark in progress, review and report with a
 'DMZ-MSEXCHANGE-2013', User 'NT AUTHORITY\SYSTEM' which is running on Windows Server 2012 R2. The source process was 'C:\Windows\System32\cmd.exe'
 - Reasoning: This alert was set to True Positive and Escalated to a L2 analyst for remidiation after reviewing the logs in SIEM showing invoked directory commands through Windows System32
 
+### 2. Medium Security Alert
+- Description:
+- Comment:
+- Reasoning:
+
 ## Skills Demonstrated
 - SIEM dashboard navigation
 - True positive alert identified
