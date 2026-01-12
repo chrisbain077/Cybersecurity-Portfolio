@@ -1,4 +1,4 @@
-# Lab 3: Verdict assesment and Escaalation 
+# Lab 3: Verdict assesment and Escalation 
 (TryHackMe SOC simulation)
 
 **Date:** Januaary 12, 2026
